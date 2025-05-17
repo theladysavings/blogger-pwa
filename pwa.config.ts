@@ -2,9 +2,9 @@ import type { Config } from './types';
 
 export default {
   id: '/',
-  name: 'My Blog',
-  shortName: 'My Blog',
-  description: 'My blog description goes here...',
+  name: 'The Lady Savings',
+  shortName: 'The Lady Savings',
+  description: 'Your #1 source for weekly savings! Visit TheLadySavings.com for top deals, discounts, and practical tips to keep more money in your wallet.',
   direction: 'auto',
   language: 'en-US',
   backgroundColor: '#fff',
@@ -17,16 +17,10 @@ export default {
   preferRelatedApplications: false,
   shortcuts: [
     {
-      name: 'Shortcut 1',
-      shortName: 'Shortcut 1',
-      description: 'Shortcut 1 description goes here...',
-      url: '/search/label/shortcut-1?utm_source=homescreen',
-    },
-    {
-      name: 'Shortcut 2',
-      shortName: 'Shortcut 2',
-      description: 'Shortcut 2 description goes here...',
-      url: '/search/label/shortcut-2?utm_source=homescreen',
+      name: 'Weekly Ads',
+      shortName: 'Weekly Ads',
+      description: 'View sales flyer for this week and weekly ad for next week, browse all the current specials circular and start saving.',
+      url: '/search/label/Weekly%20Ads?utm_source=homescreen',
     },
   ],
   pwa: {
